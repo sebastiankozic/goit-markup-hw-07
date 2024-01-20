@@ -119,7 +119,6 @@ img {
 .menuheader-main {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
 }
 
 .nav-pages {
@@ -1336,15 +1335,19 @@ html {
   .js-open-menu {
     display: none;
   }
+
   .menuheader-minor {
     display: block;
   }
+
   .icon-container {
     display: none;
   }
+
   .section-three {
     display: none;
   }
+
   .section-two-settings {
     flex-wrap: wrap;
     gap: 0;
