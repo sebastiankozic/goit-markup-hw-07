@@ -1313,7 +1313,8 @@ html {
   }
 
   .footer-input {
-    width: 398px;
+    min-width: 320px;
+    max-width: 398px;
     margin: 0 auto;
   }
 
