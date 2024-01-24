@@ -575,7 +575,7 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 408px;
+  max-width: 408px;
   min-height: 584px;
   background-color: var(--DAIRY);
   border-radius: 4px;
@@ -1070,6 +1070,14 @@ html {
     display: none;
   }
 
+  .section-one {
+    padding: 112px;
+  }
+
+  .modal {
+    width: 95%;
+  }
+
   .js-open-menu {
     background-color: transparent;
     border: 0;
@@ -1203,9 +1211,9 @@ html {
   .mobile-social-position .social-media.list {
     width: 328px;
     height: 40px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 56px;
+    gap: none;
   }
 
   .icon-container {
@@ -1313,7 +1321,7 @@ html {
   }
 
   .footer-input {
-    min-width: 320px;
+    min-width: 290px;
     max-width: 398px;
     margin: 0 auto;
   }
